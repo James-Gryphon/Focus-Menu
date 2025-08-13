@@ -1,5 +1,8 @@
 ## Focus Menu
 *An Xfce program-switching applet based on classical standards*
+
+<img width="186" height="315" alt="Picture" src="https://github.com/user-attachments/assets/b2ff7771-721f-425c-83c0-b019248c223f" />
+
 ### What’s the purpose?
 I wanted to have a menu on the top-right of the screen that would allow me to switch programs, just as in Classic Mac OS. I found that for some reason, there aren’t really Linux applets that work like this. There are window-switching menus, but they have differences that don’t make them great for the purpose of replicating traditional behaviour.
 ### How does it work?

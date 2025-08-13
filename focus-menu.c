@@ -15,7 +15,7 @@
 
 #define PLUGIN_ID "focus-menu"
 #define PLUGIN_VERSION "1.0.0" // Release version
-#define PLUGIN_WEBSITE "https://github.com/your-repo"
+#define PLUGIN_WEBSITE "https://github.com/James-Gryphon/Focus-Menu"
 #define PLUGIN_AUTHORS "James Gooch"
 #define CONFIG_CHANNEL "xfce4-panel"
 #define CONFIG_PROPERTY_BASE "/plugins/" PLUGIN_ID

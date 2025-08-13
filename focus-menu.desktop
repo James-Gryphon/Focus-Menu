@@ -1,0 +1,8 @@
+[Xfce Panel]
+Type=X-XFCE-PanelPlugin
+Name=Focus Menu
+Comment=Classical program-switching menu
+Icon=org.xfce.panel.applicationsmenu
+X-XFCE-Module=focus-menu
+X-XFCE-Unique=false
+X-XFCE-API=2.0

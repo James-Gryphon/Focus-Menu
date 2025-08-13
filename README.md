@@ -38,7 +38,7 @@ This applet officially supports two combinations of programs, for the purpose of
 
 Xfce, and also MATE, at this time, are designed to work primarily with X11. Thus this applet’s window management features are also designed to work with X11, via wnck. It does not support and is not tested with Wayland, and there is no reason to think it would work at all. (If it somehow does, it will not be because of anything that I did.)
 
-I’ve built and run it on Fedora 42 and Debian 12. It might well work on other distributions, provided they have the appropriate dependencies. If you use another distro and are especially interested in getting this, but the build doesn’t work and you don’t have the experience to tweak yourself, let me know and I’ll see if I can help.
+I’ve built and run it on Fedora 42 and Debian 12. It might well work on other distributions, provided they have the appropriate dependencies. If you use another distro and are especially interested in getting this, but the build doesn’t work and you don’t have the experience to tweak it yourself, let me know and I’ll see if I can help.
 ### How do I install it?
 The way I’ve done it is to extract the files into a new folder, and in the terminal, enter “make && sudo make install”, to install the applet to the root system. Then you can restart the panel (perhaps with xfce4-panel -r), and it should come up in “Add New Items”.
 I hope to get .deb and .rpm packages out, at my convenience.

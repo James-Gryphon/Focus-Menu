@@ -74,7 +74,7 @@ There’re two things some users would probably like to know.
 
 First, it might seem obvious given the applet’s job description, but yes, this applet is watching you. Usually it leans on wnck to detect what’s up (which is why there’s no Wayland support), but occasionally it will look directly at the proc directory for things like the desktop manager. If that bothers you, you’re free to look through the code and verify that there are no network connections or anything else being done that is under-board.
 
------
+~
 
 The second is that I’m not a C programmer. I’ve done work in other languages, but I’m a C and GTK novice, at best. The bulk of this applet’s code was produced by an AI tool, namely Anthropic’s Claude (usually the Sonnet 4 model).
 

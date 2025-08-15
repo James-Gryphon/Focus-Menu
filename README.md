@@ -88,8 +88,7 @@ But even so, I technically didn’t originally write most of it. That may bother
 Would it be nice if this applet had been made solely by human ability? Yes. But I don’t have the background in C or GTK’s libraries, or in dealing with xfconf or Xfce Panel’s expectations, and I don’t have the patience to take the time to learn all of them and work up to making this when this project has no apparent profit potential. If anyone else was going to make this, they would have done it by now. So the choice here isn’t between an applet with AI code and an applet by an elite human programmer, it’s a choice between an applet and no applet.
 
 ### Are there any known bugs or issues?
-Xfce Notifyd can appear as a program sometimes, until it is dismissed.
-Other than that, there's nothing I'm presently aware of. If you find anything, let me know.
+Occasionally, "Wrapper 2.0" will show up if looking at a Xfce panel applet's dialogs. Other than that, there's nothing I'm presently aware of. If you find anything, let me know.
 ### Why the license?
 Although GPL v2 isn’t my favorite, culture and the ecosystem seemed to lend themselves to it; it is popular among Xfce applets. The decision to use AI tools also contributed, given that I’m not entirely sure what its sources were, and that given the project context, it seems possible at least some of it could have originally been inspired by GPL code. I feel much of the code that I have reviewed wouldn’t be reasonably implemented in any other way, but it’s better to be safe here.
 This is not a great inconvenience, given the applet’s purpose and audience. Given its intimate access to the system, free access to the source code should help maintain user trust, and I feel all Classic Mac fans should have access to these features if they want them.

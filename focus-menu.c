@@ -2705,9 +2705,9 @@ static void focus_menu_configure_plugin(XfcePanelPlugin *panel, FocusMenuPlugin 
     GtkWidget *icon_only_check;
 
     /* Create dialog */
-    dialog = xfce_titled_dialog_new_with_mixed_buttons(("Mac OS 9 Menu Properties"), GTK_WINDOW(gtk_widget_get_toplevel(GTK_WIDGET(panel))), GTK_DIALOG_DESTROY_WITH_PARENT, "window-close-symbolic", _("_Close"), GTK_RESPONSE_CLOSE, NULL);
+    dialog = xfce_titled_dialog_new_with_mixed_buttons(("Focus Menu Properties"), GTK_WINDOW(gtk_widget_get_toplevel(GTK_WIDGET(panel))), GTK_DIALOG_DESTROY_WITH_PARENT, "window-close-symbolic", _("_Close"), GTK_RESPONSE_CLOSE, NULL);
 
-    gtk_window_set_icon_name(GTK_WINDOW(dialog), "org.xfce.panel.applicationsmenu");
+    gtk_window_set_icon_name(GTK_WINDOW(dialog), "org.xfce.panel.windowmenu");
     gtk_window_set_default_size(GTK_WINDOW(dialog), 400, 200);
 
     /* Get content area */
@@ -2773,7 +2773,7 @@ static void focus_menu_construct(XfcePanelPlugin *plugin)
     focus_plugin->channel = NULL;
     focus_plugin->property_base = NULL;
     focus_plugin->icon_only_mode = FALSE;  /* Default value */
-    focus_plugin->use_checkmarks = TRUE;  /* Default value */
+    focus_plugin->use_checkmarks = FALSE;  /* Default value */
     focus_plugin->use_submenus = FALSE;   /* Default value - flat mode */
 
     /* Initialize locale detection */

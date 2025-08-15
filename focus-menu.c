@@ -15,7 +15,7 @@
 
 #define PLUGIN_ID "focus-menu"
 #define PLUGIN_VERSION "1.0.0" // Release version
-#define PLUGIN_WEBSITE "https://github.com/James-Gryphon/Focus-Menu"
+#define PLUGIN_WEBSITE "https://github.com/James-Gryphon/Focus-Menu/"
 #define PLUGIN_AUTHORS "James Gooch"
 #define CONFIG_CHANNEL "xfce4-panel"
 #define CONFIG_PROPERTY_BASE "/plugins/" PLUGIN_ID
@@ -259,6 +259,9 @@ const gchar *classlib_get_application_display_name(WnckApplication *app)
      else if (g_ascii_strcasecmp(name, "code") == 0) {
         return "Visual Studio Code";
     }
+    else if (g_ascii_strcasecmp(name, "gimp") == 0) {
+    return "GIMP";
+    }
      else if (g_ascii_strcasecmp(name, "vlc") == 0 || g_ascii_strcasecmp(name, "VLC media player") == 0) 
     {
         return "VLC Media Player";
@@ -278,6 +281,10 @@ const gchar *classlib_get_application_display_name(WnckApplication *app)
     else if (g_str_has_suffix(name, "- Audacious")) 
     {
         return "Audacious";
+    }
+    else if (g_ascii_strcasecmp(name, "cherrytree") == 0) 
+    {
+        return "CherryTree";
     }
     /* =========================================================================
         * TIER 2: XFCE SETTINGS PATTERN
@@ -2505,7 +2512,10 @@ static void create_menu(FocusMenuPlugin *plugin)
         /* Always use the application name for consistency, not window names */
         const char *app_name = classlib_get_application_display_name(app);
         if (!app_name) continue;
-
+        if (g_ascii_strcasecmp(app_name, "Xfce4 Notifyd") == 0)
+        { // Not a real program
+            continue;
+        }
         /* Check if this is the currently active application */
         WnckWindow *current_active = wnck_screen_get_active_window(plugin->screen);
         gboolean is_active_app = FALSE;

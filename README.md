@@ -41,9 +41,9 @@ This applet officially supports two combinations of programs, for the purpose of
 
 Xfce, and also MATE, at this time, are designed to work primarily with X11. Thus this applet’s window management features are also designed to work with X11, via wnck. It does not support and is not tested with Wayland, and there is no reason to think it would work at all. (If it somehow does, it will not be because of anything that I did.)
 
-I’ve built and run it on Fedora 42 and Debian 12. It might well work on other distributions, provided they have the appropriate dependencies. If you use another distro and are especially interested in getting this, but the build doesn’t work and you don’t have the experience to tweak it yourself, let me know and I’ll see if I can help.
+I’ve built and run it on Fedora 42 and Debian 12 and 13. It might well work on other distributions, provided they have the appropriate dependencies. If you use another distro and are especially interested in getting this, but the build doesn’t work and you don’t have the experience to tweak it yourself, let me know and I’ll see if I can help.
 ### How do I install it?
-There are .deb and .rpm files, which have been tested in Debian 12 and Fedora 42 respectively and should be working correctly.
+There are two .deb and one .rpm files, which have been tested in Debian 12, 13, and Fedora 42, respectively and should be working correctly.
 
 If you want to build from source, the way I’ve done it is to extract the files into a new folder, and in the terminal, enter “make && sudo make install”, to install the applet to the root system.
 
@@ -70,7 +70,9 @@ The stock Xfce “Window Menu” applet is the closest competitor, though MATE a
 You will probably prefer this applet if you like alphabetical order, accessing windows by programs, or the ability to hide/reveal things based on menu options. You might prefer this applet if you like prettier or more elegant things; it is more so than its competition. Finally, if you are a fan of Classic Macintoshes and want something that reproduces that functionality, this is your only option, that I’m aware of, that works with a mainstream desktop environment.
 ### When would I not prefer this?
 I expect it’s less useful if you’re big on workspaces and want something that helps manage them. I don’t use workspaces, and I designed an applet that ignores them as much as possible.
+
 *(I think the model this is re-implementing, is, for better or worse, something of an alternative to workspaces. Accessing and hiding programs and all their windows, en masse, allows users to switch focus on tasks in a similar way to how workspaces have been advertised, in a way that I suspect is a little more accessible for many users. If you’ve never tried it before, you might give it a shot and see if you like it.)*
+
 If you used Classic Macs before and hated the application switcher menu for some reason, this applet shouldn’t do anything that will make you like it any better.
 ### Is there anything I should be concerned about?
 There’re two things some users would probably like to know.

@@ -35,7 +35,7 @@ The panel button has only an icon. (The menu items are unchanged.)
 
 **• Use checkmarks instead of radio buttons**
 
-The Classic application switcher used a checkmark to denote the active application. Technically, this slightly departs from the modern Linux standard, which uses radio items for mutually exclusive options. This brings back the vintage aesthetic for those who appreciate it.
+The Classic application switcher used a checkmark to denote the active application. Technically, this slightly departs from the modern Linux standard, which uses radio items for mutually exclusive options. This brings back the vintage aesthetic for those who appreciate it. (I have to say it's hideous under Xfce's default theme either way, though... these applets were primarily tested under thesquash's excellent Gtk-Theme-Raleigh, else I would have likely done things differently.)
 ### What’s compatibility like?
 This applet officially supports two combinations of programs, for the purpose of determining the desktop manager: Xfce’s default Xfdesktop as desktop manager and Thunar as the file manager, and alternatively, Caja as desktop and file manager. The code also includes checks for Nemo, but that’s presently untested and not officially supported. If you try it out, let me know how it goes. Support for other desktop managers is not implemented.
 
@@ -88,7 +88,9 @@ But even so, I technically didn’t originally write most of it. That may bother
 Would it be nice if this applet had been made solely by human ability? Yes. But I don’t have the background in C or GTK’s libraries, or in dealing with xfconf or Xfce Panel’s expectations, and I don’t have the patience to take the time to learn all of them and work up to making this when this project has no apparent profit potential. If anyone else was going to make this, they would have done it by now. So the choice here isn’t between an applet with AI code and an applet by an elite human programmer, it’s a choice between an applet and no applet.
 
 ### Are there any known bugs or issues?
-Occasionally, "Wrapper 2.0" will show up if looking at a Xfce panel applet's dialogs. Other than that, there's nothing I'm presently aware of. If you find anything, let me know.
+Occasionally, "Wrapper 2.0" will show up if looking at a Xfce panel applet's dialogs. 
+
+Other than that, there's nothing I'm presently aware of. If you find anything, let me know.
 ### Why the license?
 Although GPL v2 isn’t my favorite, culture and the ecosystem seemed to lend themselves to it; it is popular among Xfce applets. The decision to use AI tools also contributed, given that I’m not entirely sure what its sources were, and that given the project context, it seems possible at least some of it could have originally been inspired by GPL code. I feel much of the code that I have reviewed wouldn’t be reasonably implemented in any other way, but it’s better to be safe here.
 This is not a great inconvenience, given the applet’s purpose and audience. Given its intimate access to the system, free access to the source code should help maintain user trust, and I feel all Classic Mac fans should have access to these features if they want them.

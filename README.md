@@ -43,8 +43,11 @@ Xfce, and also MATE, at this time, are designed to work primarily with X11. Thus
 
 I’ve built and run it on Fedora 42 and Debian 12. It might well work on other distributions, provided they have the appropriate dependencies. If you use another distro and are especially interested in getting this, but the build doesn’t work and you don’t have the experience to tweak it yourself, let me know and I’ll see if I can help.
 ### How do I install it?
-The way I’ve done it is to extract the files into a new folder, and in the terminal, enter “make && sudo make install”, to install the applet to the root system. Then you can restart the panel (perhaps with xfce4-panel -r), and it should come up in “Add New Items”.
-I hope to get .deb and .rpm packages out, at my convenience.
+There are .deb and .rpm files, which have been tested in Debian 12 and Fedora 42 respectively and should be working correctly.
+
+If you want to build from source, the way I’ve done it is to extract the files into a new folder, and in the terminal, enter “make && sudo make install”, to install the applet to the root system.
+
+Either way, after installation, the applet should show up in Xfce Panel's 'Add New Items'. If not, restart the panel (via xfce4-panel -r) and look again.
 ### Are there any other features?
 There’s one thing. As mentioned before, program and window names are obtained with the help of wnck, a window monitor. Normally, many of them are ugly. I’ve included a feature which processes names and attempts to make them look ‘pretty’, following the naming conventions they’d have if they were programs running on Classic Mac OS.
 ### How is this different from what’s already out there?

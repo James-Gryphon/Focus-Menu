@@ -67,7 +67,7 @@ The stock Xfce “Window Menu” applet is the closest competitor, though MATE a
 
 • Window Menu offers the option of listing windows in different workspaces, and filtering or managing these workspaces. Focus Menu only manages the programs that are visible in one space at a time.
 ### When would I use this over the competition?
-You will probably prefer this applet if you like alphabetical order, accessing windows by programs, or the ability to hide/reveal things based on menu options. You might prefer this applet if you like prettier or more elegant things; it is more so than its competition. Finally, if you are a fan of Classic Macintoshes and want something that reproduces that functionality, this is your only option, that I’m aware of, that works with a mainstream desktop environment.
+You will probably prefer this applet if you like alphabetical order, accessing windows by programs, or the ability to hide/reveal things based on menu options. You might prefer this applet if you like prettier or more elegant things; it is more so than its competition (with the right theme). Finally, if you are a fan of Classic Macintoshes and want something that reproduces that functionality, this is your only option, that I’m aware of, that works with a mainstream desktop environment.
 ### When would I not prefer this?
 I expect it’s less useful if you’re big on workspaces and want something that helps manage them. I don’t use workspaces, and I designed an applet that ignores them as much as possible.
 
